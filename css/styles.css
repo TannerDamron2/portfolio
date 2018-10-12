@@ -23,34 +23,39 @@ h1 {
   font-family: cursive;
   font-size: 50px;
   color: #0CBDDC;
+  text-shadow: 2px 2px black;
 }
 
 .aboutme {
-  border: 2px solid #0CBDDC;
+  border: 10px solid #0CBDDC;
   border-radius: 24%;
   padding: 10px;
   margin-bottom: 15px;
   float: left;
   text-align: center;
   list-style-position: inside;
+  background-color: #E9E9E9;
+
 }
 
 .why {
-  border: 2px solid #0CBDDC;
+  border: 10px solid #0CBDDC;
   border-radius: 10%;
   padding: 10px;
   margin-top: 25px;
   float: right;
   text-align: center;
+  background-color: #E9E9E9;
 }
 
 .projects {
   text-align: center;
-  border: 2px solid #0CBDDC;
+  border: 10px solid #0CBDDC;
   border-radius: 50%;
   padding: 60px;
   margin-top: 15px;
   float: inherit;
+  background-color: #E9E9E9;
 }
 
 .projects ul {
@@ -58,27 +63,29 @@ h1 {
 }
 
 .education {
-  border: 2px solid #0CBDDC;
+  border: 10px solid #0CBDDC;
   border-radius: 10%;
   padding: 10px;
   margin-top: 25px;
   text-align: center;
   list-style-position: inside;
+  background-color: #E9E9E9;
 }
 
 .experience {
-  border: 2px solid #0CBDDC;
+  border: 10px solid #0CBDDC;
   border-radius: 10%;
   padding: 10px;
   margin-top: 25px;
   text-align: center;
   list-style-position: inside;
+  background-color: #E9E9E9;
 }
 
 .square {
     position: absolute;
     width: 86%;
-    height: 70%;
+    height: 75%;
     Background-color: #fff;
     text-align: center;
     margin-left: 7%;
@@ -88,5 +95,24 @@ h1 {
 
 .sections {
   transform: scale(0.9, 0.9);
+}
 
+.aboutme h3 {
+  text-decoration: underline;
+}
+
+.why h3 {
+  text-decoration: underline;
+}
+
+.projects h3 {
+  text-decoration: underline;
+}
+
+.education h3 {
+  text-decoration: underline;
+}
+
+.experience h3 {
+  text-decoration: underline;
 }
