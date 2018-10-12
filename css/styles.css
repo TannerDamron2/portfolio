@@ -12,6 +12,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 300px;
+  border: 2px solid #0CBDDC;
 }
 
 h1 {
@@ -25,13 +26,44 @@ h1 {
 }
 
 .aboutme {
-  border:
+  border: 2px solid #0CBDDC;
+  border-radius: 10%;
+  padding: 10px;
+  margin-bottom: 15px;
+  float: left;
+}
+
+.why {
+  border: 2px solid #0CBDDC;
+  border-radius: 10%;
+  padding: 10px;
+  margin-top: 25px;
+  float: right;
 }
 
 .projects {
   text-align: center;
+  border: 2px solid #0CBDDC;
+  border-radius: 50%;
+  padding: 50px;
+  margin-top: 15px;
+  float: inherit;
 }
 
 .projects ul {
   list-style-type: none;
+}
+
+.education {
+  border: 2px solid #0CBDDC;
+  border-radius: 10%;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.experience {
+  border: 2px solid #0CBDDC;
+  border-radius: 10%;
+  padding: 10px;
+  margin-top: 25px;
 }
