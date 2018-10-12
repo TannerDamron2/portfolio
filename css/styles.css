@@ -1,3 +1,17 @@
 #image {
   border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: cursive;
+  font-size: 50px;
+  color: #0CBDDC;
 }
