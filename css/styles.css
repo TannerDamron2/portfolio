@@ -27,10 +27,12 @@ h1 {
 
 .aboutme {
   border: 2px solid #0CBDDC;
-  border-radius: 10%;
+  border-radius: 24%;
   padding: 10px;
   margin-bottom: 15px;
   float: left;
+  text-align: center;
+  list-style-position: inside;
 }
 
 .why {
@@ -39,13 +41,14 @@ h1 {
   padding: 10px;
   margin-top: 25px;
   float: right;
+  text-align: center;
 }
 
 .projects {
   text-align: center;
   border: 2px solid #0CBDDC;
   border-radius: 50%;
-  padding: 50px;
+  padding: 60px;
   margin-top: 15px;
   float: inherit;
 }
@@ -59,6 +62,8 @@ h1 {
   border-radius: 10%;
   padding: 10px;
   margin-top: 25px;
+  text-align: center;
+  list-style-position: inside;
 }
 
 .experience {
@@ -66,4 +71,21 @@ h1 {
   border-radius: 10%;
   padding: 10px;
   margin-top: 25px;
+  text-align: center;
+  list-style-position: inside;
+}
+
+.square {
+    position: absolute;
+    width: 85%;
+    height: 70%;
+    Background-color: #fff;
+    text-align: center;
+    margin-left: 8%;
+    border-radius: 10%;
+}
+
+.sections {
+  transform: scale(0.8, 0.8);
+
 }
