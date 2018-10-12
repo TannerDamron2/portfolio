@@ -69,6 +69,7 @@ h1 {
 
 .projects ul {
   list-style-type: none;
+  font-size: 17px;
 }
 
 .education {
@@ -105,4 +106,12 @@ h3 {
 h4 {
   color: #0AADC9;
   text-decoration: underline;
+}
+
+p {
+  font-size: 17px;
+}
+
+ol {
+  font-size: 17px;
 }
