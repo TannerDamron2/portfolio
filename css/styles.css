@@ -77,15 +77,16 @@ h1 {
 
 .square {
     position: absolute;
-    width: 85%;
+    width: 86%;
     height: 70%;
     Background-color: #fff;
     text-align: center;
-    margin-left: 8%;
+    margin-left: 7%;
     border-radius: 10%;
+    margin-top: 2%;
 }
 
 .sections {
-  transform: scale(0.8, 0.8);
+  transform: scale(0.9, 0.9);
 
 }
