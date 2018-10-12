@@ -1,5 +1,6 @@
 body {
   background-color: #E9E9E9;
+  background-image: url(https://previews.123rf.com/images/zukerman/zukerman1711/zukerman171100457/90008165-abstract-blue-technology-background-element-binary-computer-code-hacker-programming-coding-vector-il.jpg);
 }
 
 .small {
@@ -11,8 +12,9 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
-  border: 2px solid #0CBDDC;
+  width: 400px;
+  border: 10px solid #0CBDDC;
+  border-style: double;
 }
 
 h1 {
@@ -21,41 +23,48 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   font-family: cursive;
-  font-size: 50px;
-  color: #0CBDDC;
+  font-size: 70px;
+  color: white;
+  text-shadow: 1px 1px #0CBDDC;
   text-shadow: 2px 2px black;
 }
 
 .aboutme {
-  border: 10px solid #0CBDDC;
+  border: 8px solid #0CBDDC;
   border-radius: 24%;
   padding: 10px;
   margin-bottom: 15px;
   float: left;
   text-align: center;
   list-style-position: inside;
-  background-color: #E9E9E9;
+  background-color: #C1F6FF;
+  border-style: inset;
+}
 
+.aboutme ul {
+  list-style: unset;
 }
 
 .why {
-  border: 10px solid #0CBDDC;
+  border: 8px solid #0CBDDC;
   border-radius: 10%;
   padding: 10px;
   margin-top: 25px;
   float: right;
   text-align: center;
-  background-color: #E9E9E9;
+  background-color: #C1F6FF;
+  border-style: inset;
 }
 
 .projects {
   text-align: center;
-  border: 10px solid #0CBDDC;
+  border: 8px solid #0CBDDC;
   border-radius: 50%;
   padding: 60px;
   margin-top: 15px;
   float: inherit;
-  background-color: #E9E9E9;
+  background-color: #C1F6FF;
+  border-style: inset;
 }
 
 .projects ul {
@@ -63,56 +72,37 @@ h1 {
 }
 
 .education {
-  border: 10px solid #0CBDDC;
+  border: 8px solid #0CBDDC;
   border-radius: 10%;
   padding: 10px;
   margin-top: 25px;
   text-align: center;
   list-style-position: inside;
-  background-color: #E9E9E9;
+  background-color: #C1F6FF;
+  border-style: inset;
 }
 
 .experience {
-  border: 10px solid #0CBDDC;
+  border: 8px solid #0CBDDC;
   border-radius: 10%;
   padding: 10px;
   margin-top: 25px;
   text-align: center;
   list-style-position: inside;
-  background-color: #E9E9E9;
-}
-
-.square {
-    position: absolute;
-    width: 86%;
-    height: 75%;
-    Background-color: #fff;
-    text-align: center;
-    margin-left: 7%;
-    border-radius: 10%;
-    margin-top: 2%;
+  background-color: #C1F6FF;
+  border-style: inset;
 }
 
 .sections {
   transform: scale(0.9, 0.9);
 }
 
-.aboutme h3 {
+h3 {
   text-decoration: underline;
+  color: #0AADC9;
 }
 
-.why h3 {
-  text-decoration: underline;
-}
-
-.projects h3 {
-  text-decoration: underline;
-}
-
-.education h3 {
-  text-decoration: underline;
-}
-
-.experience h3 {
+h4 {
+  color: #0AADC9;
   text-decoration: underline;
 }
